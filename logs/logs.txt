@@ -1,0 +1,8 @@
+9977966866 deposit amount: 99999 Altın
+3045861038 deposit amount: 99999 Dolar
+3801616710 deposit amount: 99999 TL
+3801616710 transfer_amount: 10 transferred_account: 3045861038 TL
+3801616710 transfer_amount: 10 transferred_account: 3045861038 TL
+3801616710 transfer_amount: 100 transferred_account: 3045861038 TL
+3801616710 transfer_amount: 100 transferred_account: 9977966866 TL
+3801616710 transfer_amount: 1000 transferred_account: 9977966866 TL
