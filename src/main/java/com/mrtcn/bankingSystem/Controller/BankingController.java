@@ -61,7 +61,7 @@ public class BankingController {
 	@RequestMapping(path = "/account/{accountNumber}", method = RequestMethod.POST)
 	public ResponseEntity<Account> deposit(@PathVariable String accountNumber, @RequestBody DepositRequest request) {
     	
-    	return this.depositService.deposit(accountNumber, request, producer);
+		return this.depositService.deposit(accountNumber, request, producer);
 	}
 
 	//4
