@@ -58,7 +58,7 @@ public class BankingController {
 
 	//3
 	//A service that takes an account number and handles monetary deposits accordingly.
-    @RequestMapping(path = "/account/{accountNumber}", method = RequestMethod.POST)
+	@RequestMapping(path = "/account/{accountNumber}", method = RequestMethod.POST)
 	public ResponseEntity<Account> deposit(@PathVariable String accountNumber, @RequestBody DepositRequest request) {
     	
     	return this.depositService.deposit(accountNumber, request, producer);
